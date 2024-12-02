@@ -224,3 +224,10 @@ a#yags-link:focus-visible {
   color: var(--color-fg-base);
   text-decoration: underline;
 }
+
+/** for images **/
+body {
+  background-size: cover; /* or 'contain' */
+  background-repeat: no-repeat; 
+  background-position: center; /* Optional: control image position */
+}
