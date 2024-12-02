@@ -36,7 +36,8 @@ body {
   font-family: var(--font-family), sans-serif;
   font-weight: 500;
   font-size: calc(var(--font-size) * var(--space-medium));
-  /**background-color: rgba(46,52,64, 0.4);**/
+  background-color: var(--color-bg-base);
+}
 }
 
 .visually-hidden {
@@ -68,7 +69,7 @@ body {
   display: flex;
 
   color: var(--color-fg-surface);
-  background-color: rgba(46,52,64, 0.1);
+  background-color: var(--color-bg-surface);
   border-radius: var(--surface-borderRadius);
   overflow: hidden;
   border: var(--space-smallest) solid var(--color-primary-base);
