@@ -4,17 +4,31 @@
     <meta charset="utf-8" />
     <link rel="icon" href="./favicon.ico" />
     <link href="./styles.css" rel="stylesheet"> 
+    <script>
+  // Array of image URLs
+  var images = [
+    "images/image1.png",
+    "images/image2.png",
+    "images/image3.png",
+    // ... add more image paths
+  ];
+
+  // Function to change the background image
+  function changeBackgroundImage() {
+    var randomNumber = Math.floor(Math.random() * images.length);
+    document.body.style.backgroundImage = "url('" + images[randomNumber] + "')";
+  }
+
+  // Change image every 5 seconds (5000 milliseconds)
+  setInterval(changeBackgroundImage, 5000);
+
+  // Initial image load
+  changeBackgroundImage(); 
+</script>
     <title>New tab</title>
   </head>
   <body>
     <div class="surface">
-       // Array of image URLs
-        var images = [
-          "images/image1.jpg",
-          "images/image2.jpg",
-          "images/image3.jpg",
-          // ... add more image paths
-  ];
       <main>
         <h1>Yet another generic startpage</h1>
         <div id="searchbar">
