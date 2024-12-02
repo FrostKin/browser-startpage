@@ -20,10 +20,20 @@
     document.body.style.backgroundImage = "url('" + images[randomNumber] + "')";
   }
 
+//Test code
+// Ensure the images array is defined before calling the function
+  window.onload = function() {
+    changeBackgroundImage(); // Set the initial background image
+
+    // Change image every 10 minutes (600000 milliseconds)
+    setInterval(changeBackgroundImage, 600000); 
+  };  
+      
+//old code
    // Initial image load
-    changeBackgroundImage();
+   // changeBackgroundImage();
   // Change image every 10 mins (600000 milliseconds)
-  setInterval(changeBackgroundImage, 600000); 
+  //setInterval(changeBackgroundImage, 600000); 
 </script>
     <title>New tab</title>
   </head>
