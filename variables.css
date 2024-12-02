@@ -2,8 +2,8 @@
   /** colors */
   --color-name: nord;
   --color-bg-shade: #252A33;
-  --color-bg-base: transparent;
-  --color-bg-surface: transparent;
+  --color-bg-base: rgba(44, 73, 72, 0.1);
+  --color-bg-surface: rgba(44, 73, 72, 0.1);
   --color-bg-highlight: #40495A;
   --color-fg-shade: #768CB2;
   --color-fg-base: #A6B4CD;
