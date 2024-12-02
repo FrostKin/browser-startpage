@@ -227,7 +227,7 @@ a#yags-link:focus-visible {
 
 /** for images **/
 body {
-  background-size: cover; /* or 'contain' */
+  background-size: contain; /* or 'cover' */
   background-repeat: no-repeat; 
   background-position: center; /* Optional: control image position */
 }
